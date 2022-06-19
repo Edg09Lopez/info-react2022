@@ -1,9 +1,9 @@
 import React, { Component, Fragment } from 'react';
 
-class ClassComponent extends Component {
+class lista extends Component {
 
     state = {
-
+        titulo: "Titulo de la lista"
     }
 
     render() {
@@ -15,4 +15,4 @@ class ClassComponent extends Component {
         )
     }
 }
-export default ClassComponent;
+export default lista;
